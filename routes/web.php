@@ -11,6 +11,26 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['middleware' => 'web'], function () {
+
+    Route::group(array('domain' => Config::get('app.domain_without_www')), function()
+    {
+        Route::get('/', function() {
+            return Redirect::to('http://' . Config::get('app.domain'));
+        });
+    });
+
+    Route::group(array('domain' =>  Config::get('app.domain')), function () {
+        $nameSpace = 'Geral';
+        $nameSpaceWithSlash = $nameSpace . '\\';
+
+        Route::get('/',                                                             ['uses' => $nameSpaceWithSlash . 'IndexController@index']);
+
+        Route::group(array('namespace' => $nameSpace, 'prefix' => 'exemplo'), function () {
+            $controller = 'IndexController';
+            Route::get('/',                                                          ['uses' => $controller . '@example']);
+        });
+
+    });
+
 });
