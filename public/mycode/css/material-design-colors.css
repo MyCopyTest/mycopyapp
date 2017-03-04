@@ -1,0 +1,818 @@
+/*!
+ *  Material Design Color Palette by Lucas Martins - http://mts.lucasmartins.github.io/material-design-color-palette/
+ *  License - https://github.com/mts.lucasmartins/material-design-color-palette/blob/master/License (MIT license)
+ */
+
+/*
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                               *****    AVAILABLE TYPES    *****
+ *  ----------------------------------------------------------------------------------------------------
+ *  
+ *  Backgrounds Type Colors:
+ *  ------------------------
+ *  
+ *      Just Add the prefix '.bg-@colorname-@colorvalue'
+ *  
+ *      Example: .bg-red-500
+ *  
+ *      Accent Colors
+ *  
+ *      Example: .bg-red-A100
+ *  
+ *  ----------------------------------------------------------------------------------------------------
+ *  
+ *  Text Type Colors:
+ *  -----------------
+ *  
+ *      Just Add the prefix '.text-@colorname-@colorvalue'
+ *  
+ *      Example: .text-red-500 or .text-red-A400  
+ *  
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    AVAILABLE PALETTES    *****
+ *  ----------------------------------------------------------------------------------------------------
+ *  
+ *  21 Color Palettes Available From Google Material Design:
+ *  
+ *  @type-red-*
+ *  @type-pink-*
+ *  @type-purple-*
+ *  @type-deep-purple-*
+ *  @type-indigo-*
+ *  @type-blue-*
+ *  @type-ligh-tblue-*
+ *  @type-cyan-*
+ *  @type-teal-*
+ *  @type-green-*
+ *  @type-light-green-*
+ *  @type-lime-*
+ *  @type-yellow-*
+ *  @type-amber-*
+ *  @type-orange-*
+ *  @type-deep-orange-*
+ *  @type-brown-*
+ *  @type-grey-*
+ *  @type-blue-grey-*
+ *  @type-black
+ *  @type-white
+ *  
+ *  ----------------------------------------------------------------------------------------------------
+ *  All Palettes Includes:
+ *  10 Colors + 4 Accent Colors
+ *  
+ *  @type-@colorname-50
+ *  @type-@colorname-100
+ *  @type-@colorname-200
+ *  @type-@colorname-300
+ *  @type-@colorname-400
+ *  @type-@colorname-500
+ *  @type-@colorname-600
+ *  @type-@colorname-700
+ *  @type-@colorname-800
+ *  @type-@colorname-900
+ *  
+ *  Accent Colors
+ *  @type-@colorname-A100
+ *  @type-@colorname-A200
+ *  @type-@colorname-A400
+ *  @type-@colorname-A700
+ *  ----------------------------------------------------------------------------------------------------
+ */
+    
+/*
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    RED PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-red {                   background-color: #f44336}
+.bg-red-50 {                background-color: #ffebee}
+.bg-red-100 {               background-color: #ffcdd2}
+.bg-red-200 {               background-color: #ef9a9a}
+.bg-red-300 {               background-color: #e57373}
+.bg-red-400 {               background-color: #ef5350}
+.bg-red-500 {               background-color: #f44336}
+.bg-red-600 {               background-color: #e53935}
+.bg-red-700 {               background-color: #d32f2f}
+.bg-red-800 {               background-color: #c62828}
+.bg-red-900 {               background-color: #b71c1c}
+.bg-red-A100 {              background-color: #ff8a80}
+.bg-red-A200 {              background-color: #ff5252}
+.bg-red-A400 {              background-color: #ff1744}
+.bg-red-A700 {              background-color: #d50000}
+
+button.bg-red:hover, button.bg-red:focus {background-color: #e53935}
+button.bg-red-50:hover, button.bg-red-50:focus {background-color: #ffcdd2}
+button.bg-red-100:hover, button.bg-red-100:focus {background-color: #ef9a9a}
+button.bg-red-200:hover, button.bg-red-200:focus {background-color: #e57373}
+button.bg-red-300:hover, button.bg-red-300:focus {background-color: #ef5350}
+button.bg-red-400:hover, button.bg-red-400:focus {background-color: #f44336}
+button.bg-red-500:hover, button.bg-red-500:focus {background-color: #e53935}
+button.bg-red-600:hover, button.bg-red-600:focus {background-color: #d32f2f}
+button.bg-red-700:hover, button.bg-red-700:focus {background-color: #c62828}
+button.bg-red-800:hover, button.bg-red-800:focus {background-color: #b71c1c}
+button.bg-red-900:hover, button.bg-red-900:focus {background-color: #8b1515}
+button.bg-red-A100:hover, button.bg-red-A100:focus {background-color: #ff5b4d}
+button.bg-red-A200:hover, button.bg-red-A200:focus {background-color: #ff1f1f}
+button.bg-red-A400:hover, button.bg-red-A400:focus {background-color: #e3002c}
+button.bg-red-A700:hover, button.bg-red-A700:focus {background-color: #a20000}
+/*  ---------------------------------------------------------------------------------------------------- *  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    PINK PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-pink {                  background-color: #e91e63}
+.bg-pink-50 {               background-color: #fce4ec}
+.bg-pink-100 {              background-color: #f8bbd0}
+.bg-pink-200 {              background-color: #f48fb1}
+.bg-pink-300 {              background-color: #f06292}
+.bg-pink-400 {              background-color: #ec407a}
+.bg-pink-500 {              background-color: #e91e63}
+.bg-pink-600 {              background-color: #d81b60}
+.bg-pink-700 {              background-color: #c2185b}
+.bg-pink-800 {              background-color: #ad1457}
+.bg-pink-900 {              background-color: #880e4f}
+.bg-pink-A100 {             background-color: #ff80ab}
+.bg-pink-A200 {             background-color: #ff4081}
+.bg-pink-A400 {             background-color: #f50057}
+.bg-pink-A700 {             background-color: #c51162}
+
+button.bg-pink:hover, button.bg-pink:focus {background-color: #d81b60}
+button.bg-pink-50:hover, button.bg-pink-50:focus {background-color: #f8bbd0}
+button.bg-pink-100:hover, button.bg-pink-100:focus {background-color: #f48fb1}
+button.bg-pink-200:hover, button.bg-pink-200:focus {background-color: #f06292}
+button.bg-pink-300:hover, button.bg-pink-300:focus {background-color: #ec407a}
+button.bg-pink-400:hover, button.bg-pink-400:focus {background-color: #e91e63}
+button.bg-pink-500:hover, button.bg-pink-500:focus {background-color: #d81b60}
+button.bg-pink-600:hover, button.bg-pink-600:focus {background-color: #c2185b}
+button.bg-pink-700:hover, button.bg-pink-700:focus {background-color: #ad1457}
+button.bg-pink-800:hover, button.bg-pink-800:focus {background-color: #880e4f}
+button.bg-pink-900:hover, button.bg-pink-900:focus {background-color: #5a0934}
+button.bg-pink-A100:hover, button.bg-pink-A100:focus {background-color: #ff4d89}
+button.bg-pink-A200:hover, button.bg-pink-A200:focus {background-color: #ff0d5f}
+button.bg-pink-A400:hover, button.bg-pink-A400:focus {background-color: #c20045}
+button.bg-pink-A700:hover, button.bg-pink-A700:focus {background-color: #960d4b}
+/*  ---------------------------------------------------------------------------------------------------- *  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    PURPLE PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-purple {                background-color: #9c27b0}
+.bg-purple-50 {             background-color: #f3e5f5}
+.bg-purple-100 {            background-color: #e1bee7}
+.bg-purple-200 {            background-color: #ce93d8}
+.bg-purple-300 {            background-color: #ba68c8}
+.bg-purple-400 {            background-color: #ab47bc}
+.bg-purple-500 {            background-color: #9c27b0}
+.bg-purple-600 {            background-color: #8e24aa}
+.bg-purple-700 {            background-color: #7b1fa2}
+.bg-purple-800 {            background-color: #6a1b9a}
+.bg-purple-900 {            background-color: #4a148c}
+.bg-purple-A100 {           background-color: #ea80fc}
+.bg-purple-A200 {           background-color: #e040fb}
+.bg-purple-A400 {           background-color: #d500f9}
+.bg-purple-A700 {           background-color: #aa00ff}
+
+button.bg-purple:hover, button.bg-purple:focus {background-color: #8e24aa}
+button.bg-purple-50:hover, button.bg-purple-50:focus {background-color: #e1bee7}
+button.bg-purple-100:hover, button.bg-purple-100:focus {background-color: #ce93d8}
+button.bg-purple-200:hover, button.bg-purple-200:focus {background-color: #ba68c8}
+button.bg-purple-300:hover, button.bg-purple-300:focus {background-color: #ab47bc}
+button.bg-purple-400:hover, button.bg-purple-400:focus {background-color: #9c27b0}
+button.bg-purple-500:hover, button.bg-purple-500:focus {background-color: #8e24aa}
+button.bg-purple-600:hover, button.bg-purple-600:focus {background-color: #7b1fa2}
+button.bg-purple-700:hover, button.bg-purple-700:focus {background-color: #6a1b9a}
+button.bg-purple-800:hover, button.bg-purple-800:focus {background-color: #4a148c}
+button.bg-purple-900:hover, button.bg-purple-900:focus {background-color: #320e5f}
+button.bg-purple-A100:hover, button.bg-purple-A100:focus {background-color: #e24efb}
+button.bg-purple-A200:hover, button.bg-purple-A200:focus {background-color: #d80efa}
+button.bg-purple-A400:hover, button.bg-purple-A400:focus {background-color: #a900c6}
+button.bg-purple-A700:hover, button.bg-purple-A700:focus {background-color: #8800cc}
+/*  ---------------------------------------------------------------------------------------------------- *  
+ *  
+ *  
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    DEEP PURPLE PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-deep-purple {           background-color: #673ab7}
+.bg-deep-purple-50 {        background-color: #ede7f6}
+.bg-deep-purple-100 {       background-color: #d1c4e9}
+.bg-deep-purple-200 {       background-color: #b39ddb}
+.bg-deep-purple-300 {       background-color: #9575cd}
+.bg-deep-purple-400 {       background-color: #7e57c2}
+.bg-deep-purple-500 {       background-color: #673ab7}
+.bg-deep-purple-600 {       background-color: #5e35b1}
+.bg-deep-purple-700 {       background-color: #512da8}
+.bg-deep-purple-800 {       background-color: #4527a0}
+.bg-deep-purple-900 {       background-color: #311b92}
+.bg-deep-purple-A100 {      background-color: #b388ff}
+.bg-deep-purple-A200 {      background-color: #7c4dff}
+.bg-deep-purple-A400 {      background-color: #651fff}
+.bg-deep-purple-A700 {      background-color: #6200ea}
+
+button.bg-deep-purple:hover, button.bg-deep-purple:focus {background-color: #5e35b1}
+button.bg-deep-purple-50:hover, button.bg-deep-purple-50:focus {background-color: #d1c4e9}
+button.bg-deep-purple-100:hover, button.bg-deep-purple-100:focus {background-color: #b39ddb}
+button.bg-deep-purple-200:hover, button.bg-deep-purple-200:focus {background-color: #9575cd}
+button.bg-deep-purple-300:hover, button.bg-deep-purple-300:focus {background-color: #7e57c2}
+button.bg-deep-purple-400:hover, button.bg-deep-purple-400:focus {background-color: #673ab7}
+button.bg-deep-purple-500:hover, button.bg-deep-purple-500:focus {background-color: #5e35b1}
+button.bg-deep-purple-600:hover, button.bg-deep-purple-600:focus {background-color: #512da8}
+button.bg-deep-purple-700:hover, button.bg-deep-purple-700:focus {background-color: #4527a0}
+button.bg-deep-purple-800:hover, button.bg-deep-purple-800:focus {background-color: #311b92}
+button.bg-deep-purple-900:hover, button.bg-deep-purple-900:focus {background-color: #231367}
+button.bg-deep-purple-A100:hover, button.bg-deep-purple-A100:focus {background-color: #9255ff}
+button.bg-deep-purple-A200:hover, button.bg-deep-purple-A200:focus {background-color: #561aff}
+button.bg-deep-purple-A400:hover, button.bg-deep-purple-A400:focus {background-color: #4900eb}
+button.bg-deep-purple-A700:hover, button.bg-deep-purple-A700:focus {background-color: #4d00b7}
+/*  ---------------------------------------------------------------------------------------------------- *  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    INDIGO PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-indigo {                background-color: #3f51b5}
+.bg-indigo-50 {             background-color: #e8eaf6}
+.bg-indigo-100 {            background-color: #c5cae9}
+.bg-indigo-200 {            background-color: #9fa8da}
+.bg-indigo-300 {            background-color: #7986cb}
+.bg-indigo-400 {            background-color: #5c6bc0}
+.bg-indigo-500 {            background-color: #3f51b5}
+.bg-indigo-600 {            background-color: #3949ab}
+.bg-indigo-700 {            background-color: #303f9f}
+.bg-indigo-800 {            background-color: #283593}
+.bg-indigo-900 {            background-color: #1a237e}
+.bg-indigo-A100 {           background-color: #8c9eff}
+.bg-indigo-A200 {           background-color: #536dfe}
+.bg-indigo-A400 {           background-color: #3d5afe}
+.bg-indigo-A700 {           background-color: #304ffe}
+
+button.bg-indigo:hover, button.bg-indigo:focus {background-color: #3949ab}
+button.bg-indigo-50:hover, button.bg-indigo-50:focus {background-color: #c5cae9}
+button.bg-indigo-100:hover, button.bg-indigo-100:focus {background-color: #9fa8da}
+button.bg-indigo-200:hover, button.bg-indigo-200:focus {background-color: #7986cb}
+button.bg-indigo-300:hover, button.bg-indigo-300:focus {background-color: #5c6bc0}
+button.bg-indigo-400:hover, button.bg-indigo-400:focus {background-color: #3f51b5}
+button.bg-indigo-500:hover, button.bg-indigo-500:focus {background-color: #3949ab}
+button.bg-indigo-600:hover, button.bg-indigo-600:focus {background-color: #303f9f}
+button.bg-indigo-700:hover, button.bg-indigo-700:focus {background-color: #283593}
+button.bg-indigo-800:hover, button.bg-indigo-800:focus {background-color: #1a237e}
+button.bg-indigo-900:hover, button.bg-indigo-900:focus {background-color: #111754}
+button.bg-indigo-A100:hover, button.bg-indigo-A100:focus {background-color: #5973ff}
+button.bg-indigo-A200:hover, button.bg-indigo-A200:focus {background-color: #2042fe}
+button.bg-indigo-A400:hover, button.bg-indigo-A400:focus {background-color: #0a2ffe}
+button.bg-indigo-A700:hover, button.bg-indigo-A700:focus {background-color: #0127fa}
+/*  ----------------------------------------------------------------------------------------------------
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    BLUE PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-blue {                  background-color: #2196f3}
+.bg-blue-50 {               background-color: #e3f2fd}
+.bg-blue-100 {              background-color: #bbdefb}
+.bg-blue-200 {              background-color: #90caf9}
+.bg-blue-300 {              background-color: #64b5f6}
+.bg-blue-400 {              background-color: #42a5f5}
+.bg-blue-500 {              background-color: #2196f3}
+.bg-blue-600 {              background-color: #1e88e5}
+.bg-blue-700 {              background-color: #1976d2}
+.bg-blue-800 {              background-color: #1565c0}
+.bg-blue-900 {              background-color: #0d47a1}
+.bg-blue-A100 {             background-color: #82b1ff}
+.bg-blue-A200 {             background-color: #448aff}
+.bg-blue-A400 {             background-color: #2979ff}
+.bg-blue-A700 {             background-color: #2962ff}
+
+button.bg-blue:hover, button.bg-blue:focus {background-color: #1e88e5}
+button.bg-blue-50:hover, button.bg-blue-50:focus {background-color: #bbdefb}
+button.bg-blue-100:hover, button.bg-blue-100:focus {background-color: #90caf9}
+button.bg-blue-200:hover, button.bg-blue-200:focus {background-color: #64b5f6}
+button.bg-blue-300:hover, button.bg-blue-300:focus {background-color: #42a5f5}
+button.bg-blue-400:hover, button.bg-blue-400:focus {background-color: #2196f3}
+button.bg-blue-500:hover, button.bg-blue-500:focus {background-color: #1e88e5}
+button.bg-blue-600:hover, button.bg-blue-600:focus {background-color: #1976d2}
+button.bg-blue-700:hover, button.bg-blue-700:focus {background-color: #1565c0}
+button.bg-blue-800:hover, button.bg-blue-800:focus {background-color: #0d47a1}
+button.bg-blue-900:hover, button.bg-blue-900:focus {background-color: #093272}
+button.bg-blue-A100:hover, button.bg-blue-A100:focus {background-color: #4f91ff}
+button.bg-blue-A200:hover, button.bg-blue-A200:focus {background-color: #116aff}
+button.bg-blue-A400:hover, button.bg-blue-A400:focus {background-color: #005cf5}
+button.bg-blue-A700:hover, button.bg-blue-A700:focus {background-color: #0041f5}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    LIGHT BLUE PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-light-blue {            background-color: #03a9f4}
+.bg-light-blue-50 {         background-color: #e1f5fe}
+.bg-light-blue-100 {        background-color: #b3e5fc}
+.bg-light-blue-200 {        background-color: #81d4fa}
+.bg-light-blue-300 {        background-color: #4fc3f7}
+.bg-light-blue-400 {        background-color: #29b6f6}
+.bg-light-blue-500 {        background-color: #03a9f4}
+.bg-light-blue-600 {        background-color: #039be5}
+.bg-light-blue-700 {        background-color: #0288d1}
+.bg-light-blue-800 {        background-color: #0277bd}
+.bg-light-blue-900 {        background-color: #01579b}
+.bg-light-blue-A100 {       background-color: #80d8ff}
+.bg-light-blue-A200 {       background-color: #40c4ff}
+.bg-light-blue-A400 {       background-color: #00b0ff}
+.bg-light-blue-A700 {       background-color: #0091ea}
+
+button.bg-light-blue:hover, button.bg-light-blue:focus {background-color: #039be5}
+button.bg-light-blue-50:hover, button.bg-light-blue-50:focus {background-color: #b3e5fc}
+button.bg-light-blue-100:hover, button.bg-light-blue-100:focus {background-color: #81d4fa}
+button.bg-light-blue-200:hover, button.bg-light-blue-200:focus {background-color: #4fc3f7}
+button.bg-light-blue-300:hover, button.bg-light-blue-300:focus {background-color: #29b6f6}
+button.bg-light-blue-400:hover, button.bg-light-blue-400:focus {background-color: #03a9f4}
+button.bg-light-blue-500:hover, button.bg-light-blue-500:focus {background-color: #039be5}
+button.bg-light-blue-600:hover, button.bg-light-blue-600:focus {background-color: #0288d1}
+button.bg-light-blue-700:hover, button.bg-light-blue-700:focus {background-color: #0277bd}
+button.bg-light-blue-800:hover, button.bg-light-blue-800:focus {background-color: #01579b}
+button.bg-light-blue-900:hover, button.bg-light-blue-900:focus {background-color: #013b68}
+button.bg-light-blue-A100:hover, button.bg-light-blue-A100:focus {background-color: #4dc8ff}
+button.bg-light-blue-A200:hover, button.bg-light-blue-A200:focus {background-color: #0db4ff}
+button.bg-light-blue-A400:hover, button.bg-light-blue-A400:focus {background-color: #008dcc}
+button.bg-light-blue-A700:hover, button.bg-light-blue-A700:focus {background-color: #0071b7}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    CYAN PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-cyan {                  background-color: #00bcd4}
+.bg-cyan-50 {               background-color: #e0f7fa}
+.bg-cyan-100 {              background-color: #b2ebf2}
+.bg-cyan-200 {              background-color: #80deea}
+.bg-cyan-300 {              background-color: #4dd0e1}
+.bg-cyan-400 {              background-color: #26c6da}
+.bg-cyan-500 {              background-color: #00bcd4}
+.bg-cyan-600 {              background-color: #00acc1}
+.bg-cyan-700 {              background-color: #0097a7}
+.bg-cyan-800 {              background-color: #00838f}
+.bg-cyan-900 {              background-color: #006064}
+.bg-cyan-A100 {             background-color: #84ffff}
+.bg-cyan-A200 {             background-color: #18ffff}
+.bg-cyan-A400 {             background-color: #00e5ff}
+.bg-cyan-A700 {             background-color: #00b8d4}
+
+button.bg-cyan:hover, button.bg-cyan:focus {background-color: #00acc1}
+button.bg-cyan-50:hover, button.bg-cyan-50:focus {background-color: #b2ebf2}
+button.bg-cyan-100:hover, button.bg-cyan-100:focus {background-color: #80deea}
+button.bg-cyan-200:hover, button.bg-cyan-200:focus {background-color: #4dd0e1}
+button.bg-cyan-300:hover, button.bg-cyan-300:focus {background-color: #26c6da}
+button.bg-cyan-400:hover, button.bg-cyan-400:focus {background-color: #00bcd4}
+button.bg-cyan-500:hover, button.bg-cyan-500:focus {background-color: #00acc1}
+button.bg-cyan-600:hover, button.bg-cyan-600:focus {background-color: #0097a7}
+button.bg-cyan-700:hover, button.bg-cyan-700:focus {background-color: #00838f}
+button.bg-cyan-800:hover, button.bg-cyan-800:focus {background-color: #006064}
+button.bg-cyan-900:hover, button.bg-cyan-900:focus {background-color: #002f31}
+button.bg-cyan-A100:hover, button.bg-cyan-A100:focus {background-color: #51ffff}
+button.bg-cyan-A200:hover, button.bg-cyan-A200:focus {background-color: #00e4e4}
+button.bg-cyan-A400:hover, button.bg-cyan-A400:focus {background-color: #00b7cc}
+button.bg-cyan-A700:hover, button.bg-cyan-A700:focus {background-color: #008ca1}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    TEAL PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-teal {                  background-color: #009688}
+.bg-teal-50 {               background-color: #e0f2f1}
+.bg-teal-100 {              background-color: #b2dfdb}
+.bg-teal-200 {              background-color: #80cbc4}
+.bg-teal-300 {              background-color: #4db6ac}
+.bg-teal-400 {              background-color: #26a69a}
+.bg-teal-500 {              background-color: #009688}
+.bg-teal-600 {              background-color: #00897b}
+.bg-teal-700 {              background-color: #00796b}
+.bg-teal-800 {              background-color: #00695c}
+.bg-teal-900 {              background-color: #004d40}
+.bg-teal-A100 {             background-color: #a7ffeb}
+.bg-teal-A200 {             background-color: #64ffda}
+.bg-teal-A400 {             background-color: #1de9b6}
+.bg-teal-A700 {             background-color: #00bfa5}
+
+button.bg-teal:hover, button.bg-teal:focus {background-color: #00897b}
+button.bg-teal-50:hover, button.bg-teal-50:focus {background-color: #b2dfdb}
+button.bg-teal-100:hover, button.bg-teal-100:focus {background-color: #80cbc4}
+button.bg-teal-200:hover, button.bg-teal-200:focus {background-color: #4db6ac}
+button.bg-teal-300:hover, button.bg-teal-300:focus {background-color: #26a69a}
+button.bg-teal-400:hover, button.bg-teal-400:focus {background-color: #009688}
+button.bg-teal-500:hover, button.bg-teal-500:focus {background-color: #00897b}
+button.bg-teal-600:hover, button.bg-teal-600:focus {background-color: #00796b}
+button.bg-teal-700:hover, button.bg-teal-700:focus {background-color: #00695c}
+button.bg-teal-800:hover, button.bg-teal-800:focus {background-color: #004d40}
+button.bg-teal-900:hover, button.bg-teal-900:focus {background-color: #001a16}
+button.bg-teal-A100:hover, button.bg-teal-A100:focus {background-color: #74ffdf}
+button.bg-teal-A200:hover, button.bg-teal-A200:focus {background-color: #31ffce}
+button.bg-teal-A400:hover, button.bg-teal-A400:focus {background-color: #13c095}
+button.bg-teal-A700:hover, button.bg-teal-A700:focus {background-color: #008c79}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    GREEN PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-green {                 background-color: #4caf50}
+.bg-green-50 {              background-color: #e8f5e9}
+.bg-green-100 {             background-color: #c8e6c9}
+.bg-green-200 {             background-color: #a5d6a7}
+.bg-green-300 {             background-color: #81c784}
+.bg-green-400 {             background-color: #66bb6a}
+.bg-green-500 {             background-color: #4caf50}
+.bg-green-600 {             background-color: #43a047}
+.bg-green-700 {             background-color: #388e3c}
+.bg-green-800 {             background-color: #2e7d32}
+.bg-green-900 {             background-color: #1b5e20}
+.bg-green-A100 {            background-color: #b9f6ca}
+.bg-green-A200 {            background-color: #69f0ae}
+.bg-green-A400 {            background-color: #00e676}
+.bg-green-A700 {            background-color: #00c853}
+
+button.bg-green:hover, button.bg-green:focus {background-color: #43a047}
+button.bg-green-50:hover, button.bg-green-50:focus {background-color: #c8e6c9}
+button.bg-green-100:hover, button.bg-green-100:focus {background-color: #a5d6a7}
+button.bg-green-200:hover, button.bg-green-200:focus {background-color: #81c784}
+button.bg-green-300:hover, button.bg-green-300:focus {background-color: #66bb6a}
+button.bg-green-400:hover, button.bg-green-400:focus {background-color: #4caf50}
+button.bg-green-500:hover, button.bg-green-500:focus {background-color: #43a047}
+button.bg-green-600:hover, button.bg-green-600:focus {background-color: #388e3c}
+button.bg-green-700:hover, button.bg-green-700:focus {background-color: #2e7d32}
+button.bg-green-800:hover, button.bg-green-800:focus {background-color: #1b5e20}
+button.bg-green-900:hover, button.bg-green-900:focus {background-color: #103613}
+button.bg-green-A100:hover, button.bg-green-A100:focus {background-color: #8cf0a8}
+button.bg-green-A200:hover, button.bg-green-A200:focus {background-color: #3beb95}
+button.bg-green-A400:hover, button.bg-green-A400:focus {background-color: #00b35c}
+button.bg-green-A700:hover, button.bg-green-A700:focus {background-color: #00953e}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    LIGHT GREEN PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-light-green {           background-color: #8bc34a}
+.bg-light-green-50 {        background-color: #f1f8e9}
+.bg-light-green-100 {       background-color: #dcedc8}
+.bg-light-green-200 {       background-color: #c5e1a5}
+.bg-light-green-300 {       background-color: #aed581}
+.bg-light-green-400 {       background-color: #9ccc65}
+.bg-light-green-500 {       background-color: #8bc34a}
+.bg-light-green-600 {       background-color: #7cb342}
+.bg-light-green-700 {       background-color: #689f38}
+.bg-light-green-800 {       background-color: #558b2f}
+.bg-light-green-900 {       background-color: #33691e}
+.bg-light-green-A100 {      background-color: #ccff90}
+.bg-light-green-A200 {      background-color: #b2ff59}
+.bg-light-green-A400 {      background-color: #76ff03}
+.bg-light-green-A700 {      background-color: #64dd17}
+
+button.bg-light-green:hover, button.bg-light-green:focus {background-color: #7cb342}
+button.bg-light-green-50:hover, button.bg-light-green-50:focus {background-color: #dcedc8}
+button.bg-light-green-100:hover, button.bg-light-green-100:focus {background-color: #c5e1a5}
+button.bg-light-green-200:hover, button.bg-light-green-200:focus {background-color: #aed581}
+button.bg-light-green-300:hover, button.bg-light-green-300:focus {background-color: #9ccc65}
+button.bg-light-green-400:hover, button.bg-light-green-400:focus {background-color: #8bc34a}
+button.bg-light-green-500:hover, button.bg-light-green-500:focus {background-color: #7cb342}
+button.bg-light-green-600:hover, button.bg-light-green-600:focus {background-color: #689f38}
+button.bg-light-green-700:hover, button.bg-light-green-700:focus {background-color: #558b2f}
+button.bg-light-green-800:hover, button.bg-light-green-800:focus {background-color: #33691e}
+button.bg-light-green-900:hover, button.bg-light-green-900:focus {background-color: #204113}
+button.bg-light-green-A100:hover, button.bg-light-green-A100:focus {background-color: #b5ff5d}
+button.bg-light-green-A200:hover, button.bg-light-green-A200:focus {background-color: #9aff26}
+button.bg-light-green-A400:hover, button.bg-light-green-A400:focus {background-color: #5ecf00}
+button.bg-light-green-A700:hover, button.bg-light-green-A700:focus {background-color: #4faf12}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    LIME PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-lime {                  background-color: #cddc39}
+.bg-lime-50 {               background-color: #f9fbe7}
+.bg-lime-100 {              background-color: #f0f4c3}
+.bg-lime-200 {              background-color: #e6ee9c}
+.bg-lime-300 {              background-color: #dce775}
+.bg-lime-400 {              background-color: #d4e157}
+.bg-lime-500 {              background-color: #cddc39}
+.bg-lime-600 {              background-color: #c0ca33}
+.bg-lime-700 {              background-color: #afb42b}
+.bg-lime-800 {              background-color: #9e9d24}
+.bg-lime-900 {              background-color: #827717}
+.bg-lime-A100 {             background-color: #f4ff81}
+.bg-lime-A200 {             background-color: #eeff41}
+.bg-lime-A400 {             background-color: #c6ff00}
+.bg-lime-A700 {             background-color: #aeea00}
+
+button.bg-lime:hover, button.bg-lime:focus {background-color: #c0ca33}
+button.bg-lime-50:hover, button.bg-lime-50:focus {background-color: #f0f4c3}
+button.bg-lime-100:hover, button.bg-lime-100:focus {background-color: #e6ee9c}
+button.bg-lime-200:hover, button.bg-lime-200:focus {background-color: #dce775}
+button.bg-lime-300:hover, button.bg-lime-300:focus {background-color: #d4e157}
+button.bg-lime-400:hover, button.bg-lime-400:focus {background-color: #cddc39}
+button.bg-lime-500:hover, button.bg-lime-500:focus {background-color: #c0ca33}
+button.bg-lime-600:hover, button.bg-lime-600:focus {background-color: #afb42b}
+button.bg-lime-700:hover, button.bg-lime-700:focus {background-color: #9e9d24}
+button.bg-lime-800:hover, button.bg-lime-800:focus {background-color: #827717}
+button.bg-lime-900:hover, button.bg-lime-900:focus {background-color: #574f0f}
+button.bg-lime-A100:hover, button.bg-lime-A100:focus {background-color: #f0ff4e}
+button.bg-lime-A200:hover, button.bg-lime-A200:focus {background-color: #e9ff0e}
+button.bg-lime-A400:hover, button.bg-lime-A400:focus {background-color: #9ecc00}
+button.bg-lime-A700:hover, button.bg-lime-A700:focus {background-color: #88b700}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    YELLOW PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-yellow {                background-color: #ffeb3b}
+.bg-yellow-50 {             background-color: #fffde7}
+.bg-yellow-100 {            background-color: #fff9c4}
+.bg-yellow-200 {            background-color: #fff59d}
+.bg-yellow-300 {            background-color: #fff176}
+.bg-yellow-400 {            background-color: #ffee58}
+.bg-yellow-500 {            background-color: #ffeb3b}
+.bg-yellow-600 {            background-color: #fdd835}
+.bg-yellow-700 {            background-color: #fbc02d}
+.bg-yellow-800 {            background-color: #f9a825}
+.bg-yellow-900 {            background-color: #f57f17}
+.bg-yellow-A100 {           background-color: #ffff8d}
+.bg-yellow-A200 {           background-color: #ffff00}
+.bg-yellow-A400 {           background-color: #ffea00}
+.bg-yellow-A700 {           background-color: #ffd600}
+
+button.bg-yellow:hover, button.bg-yellow:focus {background-color: #fdd835}
+button.bg-yellow-50:hover, button.bg-yellow-50:focus {background-color: #fff9c4}
+button.bg-yellow-100:hover, button.bg-yellow-100:focus {background-color: #fff59d}
+button.bg-yellow-200:hover, button.bg-yellow-200:focus {background-color: #fff176}
+button.bg-yellow-300:hover, button.bg-yellow-300:focus {background-color: #ffee58}
+button.bg-yellow-400:hover, button.bg-yellow-400:focus {background-color: #ffeb3b}
+button.bg-yellow-500:hover, button.bg-yellow-500:focus {background-color: #fdd835}
+button.bg-yellow-600:hover, button.bg-yellow-600:focus {background-color: #fbc02d}
+button.bg-yellow-700:hover, button.bg-yellow-700:focus {background-color: #f9a825}
+button.bg-yellow-800:hover, button.bg-yellow-800:focus {background-color: #f57f17}
+button.bg-yellow-900:hover, button.bg-yellow-900:focus {background-color: #d06609}
+button.bg-yellow-A100:hover, button.bg-yellow-A100:focus {background-color: #ffff5a}
+button.bg-yellow-A200:hover, button.bg-yellow-A200:focus {background-color: #cccc00}
+button.bg-yellow-A400:hover, button.bg-yellow-A400:focus {background-color: #ccbb00}
+button.bg-yellow-A700:hover, button.bg-yellow-A700:focus {background-color: #ccab00}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    AMBER PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-amber {                 background-color: #ffc107}
+.bg-amber-50 {              background-color: #fff8e1}
+.bg-amber-100 {             background-color: #ffecb3}
+.bg-amber-200 {             background-color: #ffe082}
+.bg-amber-300 {             background-color: #ffd54f}
+.bg-amber-400 {             background-color: #ffca28}
+.bg-amber-500 {             background-color: #ffc107}
+.bg-amber-600 {             background-color: #ffb300}
+.bg-amber-700 {             background-color: #ffa000}
+.bg-amber-800 {             background-color: #ff8f00}
+.bg-amber-900 {             background-color: #ff6f00}
+.bg-amber-A100 {            background-color: #ffe57f}
+.bg-amber-A200 {            background-color: #ffd740}
+.bg-amber-A400 {            background-color: #ffc400}
+.bg-amber-A700 {            background-color: #ffab00}
+
+button.bg-amber:hover, button.bg-amber:focus {background-color: #ffb300}
+button.bg-amber-50:hover, button.bg-amber-50:focus {background-color: #ffecb3}
+button.bg-amber-100:hover, button.bg-amber-100:focus {background-color: #ffe082}
+button.bg-amber-200:hover, button.bg-amber-200:focus {background-color: #ffd54f}
+button.bg-amber-300:hover, button.bg-amber-300:focus {background-color: #ffca28}
+button.bg-amber-400:hover, button.bg-amber-400:focus {background-color: #ffc107}
+button.bg-amber-500:hover, button.bg-amber-500:focus {background-color: #ffb300}
+button.bg-amber-600:hover, button.bg-amber-600:focus {background-color: #ffa000}
+button.bg-amber-700:hover, button.bg-amber-700:focus {background-color: #ff8f00}
+button.bg-amber-800:hover, button.bg-amber-800:focus {background-color: #ff6f00}
+button.bg-amber-900:hover, button.bg-amber-900:focus {background-color: #cc5900}
+button.bg-amber-A100:hover, button.bg-amber-A100:focus {background-color: #ffdb4c}
+button.bg-amber-A200:hover, button.bg-amber-A200:focus {background-color: #ffcc0d}
+button.bg-amber-A400:hover, button.bg-amber-A400:focus {background-color: #cc9d00}
+button.bg-amber-A700:hover, button.bg-amber-A700:focus {background-color: #cc8900}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    ORANGE PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-orange {                background-color: #ff9800}
+.bg-orange-50 {             background-color: #fff3e0}
+.bg-orange-100 {            background-color: #ffe0b2}
+.bg-orange-200 {            background-color: #ffcc80}
+.bg-orange-300 {            background-color: #ffb74d}
+.bg-orange-400 {            background-color: #ffa726}
+.bg-orange-500 {            background-color: #ff9800}
+.bg-orange-600 {            background-color: #fb8c00}
+.bg-orange-700 {            background-color: #f57c00}
+.bg-orange-800 {            background-color: #ef6c00}
+.bg-orange-900 {            background-color: #e65100}
+.bg-orange-A100 {           background-color: #ffd180}
+.bg-orange-A200 {           background-color: #ffab40}
+.bg-orange-A400 {           background-color: #ff9100}
+.bg-orange-A700 {           background-color: #ff6d00}
+
+/*a, button */
+button.bg-orange:hover, button.bg-orange:focus {background-color: #fb8c00}
+button.bg-orange-50:hover, button.bg-orange-50:focus {background-color: #ffe0b2}
+button.bg-orange-100:hover, button.bg-orange-100:focus {background-color: #ffcc80}
+button.bg-orange-200:hover, button.bg-orange-200:focus {background-color: #ffb74d}
+button.bg-orange-300:hover, button.bg-orange-300:focus {background-color: #ffa726}
+button.bg-orange-400:hover, button.bg-orange-400:focus {background-color: #ff9800}
+button.bg-orange-500:hover, button.bg-orange-500:focus {background-color: #fb8c00}
+button.bg-orange-600:hover, button.bg-orange-600:focus {background-color: #f57c00}
+button.bg-orange-700:hover, button.bg-orange-700:focus {background-color: #ef6c00}
+button.bg-orange-800:hover, button.bg-orange-800:focus {background-color: #e65100}
+button.bg-orange-900:hover, button.bg-orange-900:focus {background-color: #b33f00}
+button.bg-orange-A100:hover, button.bg-orange-A100:focus {background-color: #ffbf4d}
+button.bg-orange-A200:hover, button.bg-orange-A200:focus {background-color: #ff950d}
+button.bg-orange-A400:hover, button.bg-orange-A400:focus {background-color: #cc7400}
+button.bg-orange-A700:hover, button.bg-orange-A700:focus {background-color: #cc5700}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    DEEP ORANGE PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-deep-orange {           background-color: #ff5722}
+.bg-deep-orange-50 {        background-color: #fbe9e7}
+.bg-deep-orange-100 {       background-color: #ffccbc}
+.bg-deep-orange-200 {       background-color: #ffab91}
+.bg-deep-orange-300 {       background-color: #ff8a65}
+.bg-deep-orange-400 {       background-color: #ff7043}
+.bg-deep-orange-500 {       background-color: #ff5722}
+.bg-deep-orange-600 {       background-color: #f4511e}
+.bg-deep-orange-700 {       background-color: #e64a19}
+.bg-deep-orange-800 {       background-color: #d84315}
+.bg-deep-orange-900 {       background-color: #bf360c}
+.bg-deep-orange-A100 {      background-color: #ff9e80}
+.bg-deep-orange-A200 {      background-color: #ff6e40}
+.bg-deep-orange-A400 {      background-color: #ff3d00}
+.bg-deep-orange-A700 {      background-color: #dd2c00}
+
+button.bg-deep-orange:hover, button.bg-deep-orange:focus {background-color: #f4511e}
+button.bg-deep-orange-50:hover, button.bg-deep-orange-50:focus {background-color: #ffccbc}
+button.bg-deep-orange-100:hover, button.bg-deep-orange-100:focus {background-color: #ffab91}
+button.bg-deep-orange-200:hover, button.bg-deep-orange-200:focus {background-color: #ff8a65}
+button.bg-deep-orange-300:hover, button.bg-deep-orange-300:focus {background-color: #ff7043}
+button.bg-deep-orange-400:hover, button.bg-deep-orange-400:focus {background-color: #ff5722}
+button.bg-deep-orange-500:hover, button.bg-deep-orange-500:focus {background-color: #f4511e}
+button.bg-deep-orange-600:hover, button.bg-deep-orange-600:focus {background-color: #e64a19}
+button.bg-deep-orange-700:hover, button.bg-deep-orange-700:focus {background-color: #d84315}
+button.bg-deep-orange-800:hover, button.bg-deep-orange-800:focus {background-color: #bf360c}
+button.bg-deep-orange-900:hover, button.bg-deep-orange-900:focus {background-color: #8f2809}
+button.bg-deep-orange-A100:hover, button.bg-deep-orange-A100:focus {background-color: #ff774d}
+button.bg-deep-orange-A200:hover, button.bg-deep-orange-A200:focus {background-color: #ff470d}
+button.bg-deep-orange-A400:hover, button.bg-deep-orange-A400:focus {background-color: #cc3100}
+button.bg-deep-orange-A700:hover, button.bg-deep-orange-A700:focus {background-color: #aa2200}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    BROWN PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-brown {                 background-color: #795548}
+.bg-brown-50 {              background-color: #efebe9}
+.bg-brown-100 {             background-color: #d7ccc8}
+.bg-brown-200 {             background-color: #bcaaa4}
+.bg-brown-300 {             background-color: #a1887f}
+.bg-brown-400 {             background-color: #8d6e63}
+.bg-brown-500 {             background-color: #795548}
+.bg-brown-600 {             background-color: #6d4c41}
+.bg-brown-700 {             background-color: #5d4037}
+.bg-brown-800 {             background-color: #4e342e}
+.bg-brown-900 {             background-color: #3e2723}
+
+button.bg-brown:hover, button.bg-brown:focus {background-color: #6d4c41}
+button.bg-brown-50:hover, button.bg-brown-50:focus {background-color: #d7ccc8}
+button.bg-brown-100:hover, button.bg-brown-100:focus {background-color: #bcaaa4}
+button.bg-brown-200:hover, button.bg-brown-200:focus {background-color: #a1887f}
+button.bg-brown-300:hover, button.bg-brown-300:focus {background-color: #8d6e63}
+button.bg-brown-400:hover, button.bg-brown-400:focus {background-color: #795548}
+button.bg-brown-500:hover, button.bg-brown-500:focus {background-color: #6d4c41}
+button.bg-brown-600:hover, button.bg-brown-600:focus {background-color: #5d4037}
+button.bg-brown-700:hover, button.bg-brown-700:focus {background-color: #4e342e}
+button.bg-brown-800:hover, button.bg-brown-800:focus {background-color: #3e2723}
+button.bg-brown-900:hover, button.bg-brown-900:focus {background-color: #1d1211}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    GREY PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-grey {                  background-color: #9e9e9e}
+.bg-grey-50 {               background-color: #fafafa}
+.bg-grey-100 {              background-color: #f5f5f5}
+.bg-grey-200 {              background-color: #eeeeee}
+.bg-grey-300 {              background-color: #e0e0e0}
+.bg-grey-400 {              background-color: #bdbdbd}
+.bg-grey-500 {              background-color: #9e9e9e}
+.bg-grey-600 {              background-color: #757575}
+.bg-grey-700 {              background-color: #616161}
+.bg-grey-800 {              background-color: #424242}
+.bg-grey-900 {              background-color: #212121}
+
+button.bg-grey:hover, button.bg-grey:focus {background-color: #757575}
+button.bg-grey-50:hover, button.bg-grey-50:focus {background-color: #f5f5f5}
+button.bg-grey-100:hover, button.bg-grey-100:focus {background-color: #eeeeee}
+button.bg-grey-200:hover, button.bg-grey-200:focus {background-color: #e0e0e0}
+button.bg-grey-300:hover, button.bg-grey-300:focus {background-color: #bdbdbd}
+button.bg-grey-400:hover, button.bg-grey-400:focus {background-color: #9e9e9e}
+button.bg-grey-500:hover, button.bg-grey-500:focus {background-color: #757575}
+button.bg-grey-600:hover, button.bg-grey-600:focus {background-color: #616161}
+button.bg-grey-700:hover, button.bg-grey-700:focus {background-color: #424242}
+button.bg-grey-800:hover, button.bg-grey-800:focus {background-color: #212121}
+button.bg-grey-900:hover, button.bg-grey-900:focus {background-color: #080808}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    BLUE GREY PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-blue-grey {             background-color: #607d8b}
+.bg-blue-grey-50 {          background-color: #eceff1}
+.bg-blue-grey-100 {         background-color: #cfd8dc}
+.bg-blue-grey-200 {         background-color: #b0bec5}
+.bg-blue-grey-300 {         background-color: #90a4ae}
+.bg-blue-grey-400 {         background-color: #78909c}
+.bg-blue-grey-500 {         background-color: #607d8b}
+.bg-blue-grey-600 {         background-color: #546e7a}
+.bg-blue-grey-700 {         background-color: #455a64}
+.bg-blue-grey-800 {         background-color: #37474f}
+.bg-blue-grey-900 {         background-color: #263238}
+
+button.bg-blue-grey:hover, button.bg-blue-grey:focus {background-color: #546e7a}
+button.bg-blue-grey-50:hover, button.bg-blue-grey-50:focus {background-color: #cfd8dc}
+button.bg-blue-grey-100:hover, button.bg-blue-grey-100:focus {background-color: #b0bec5}
+button.bg-blue-grey-200:hover, button.bg-blue-grey-200:focus {background-color: #90a4ae}
+button.bg-blue-grey-300:hover, button.bg-blue-grey-300:focus {background-color: #78909c}
+button.bg-blue-grey-400:hover, button.bg-blue-grey-400:focus {background-color: #607d8b}
+button.bg-blue-grey-500:hover, button.bg-blue-grey-500:focus {background-color: #546e7a}
+button.bg-blue-grey-600:hover, button.bg-blue-grey-600:focus {background-color: #455a64}
+button.bg-blue-grey-700:hover, button.bg-blue-grey-700:focus {background-color: #37474f}
+button.bg-blue-grey-800:hover, button.bg-blue-grey-800:focus {background-color: #263238}
+button.bg-blue-grey-900:hover, button.bg-blue-grey-900:focus {background-color: #11171a}
+/*  ----------------------------------------------------------------------------------------------------  
+ *  
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    WHITE PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+                                                                             */
+.bg-white{background-color: #FFFFFF}
+
+.text-white{color: #FFFFFF}
+
+.text-white-lighter {color: rgba(255, 255, 255, 0.12)}
+.text-white-light {color: rgba(255, 255, 255, 0.3)}
+.text-white-dark {color: rgba(255, 255, 255, 0.7)}
+.text-white-darker {color: #ffffff}
+
+button.text-white-lighter:hover, button.text-white-lighter:focus {color: rgba(255, 255, 255, 0.3)}
+button.text-white-light:hover, button.text-white-light:focus {color: rgba(255, 255, 255, 0.7)}
+button.text-white-dark:hover, button.text-white-dark:focus {color: #ffffff}
+button.text-white-darker:hover, button.text-white-darker:focus {color: white}
+/*  ----------------------------------------------------------------------------------------------------
+ *
+ *
+ *  ----------------------------------------------------------------------------------------------------
+ *  ||                             *****    BLACK PALETTE    *****
+ *  ----------------------------------------------------------------------------------------------------
+ */
+.bg-black{background-color: #000000}
+
+.text-black{color: #000000}
+
+.text-black-lighter {color: rgba(0, 0, 0, 0.12)}
+.text-black-light {color: rgba(0, 0, 0, 0.26)}
+.text-black-dark {color: rgba(0, 0, 0, 0.54)}
+.text-black-darker {color: rgba(0, 0, 0, 0.87)}
+
+button.text-black-lighter:hover, button.text-black-lighter:focus {color: rgba(0, 0, 0, 0.26)}
+button.text-black-light:hover, button.text-black-light:focus {color: rgba(0, 0, 0, 0.54)}
+button.text-black-dark:hover, button.text-black-dark:focus {color: rgba(0, 0, 0, 0.87)}
+button.text-black-darker:hover, button.text-black-darker:focus {color: black}

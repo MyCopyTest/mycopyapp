@@ -1,0 +1,25 @@
+.accordion-color,
+.accordion-color-name-h5,
+.accordion-color-name{
+    height: 100%;
+}
+
+.accordion-color-name {
+    display: block;
+    line-height: 36px;
+    padding-left: 8px;
+}
+
+.accordion-color-name,
+.accordion-color-name:hover,
+.accordion-color-name:enabled,
+.accordion-color-name:focus,
+.accordion-color-name:active {
+    text-decoration: none;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -webkit-app-region: no-drag;
+    -ms-user-select: none;
+    user-select: none;
+}

@@ -26,9 +26,16 @@ Route::group(['middleware' => 'web'], function () {
 
         Route::get('/',                                                             ['uses' => $nameSpaceWithSlash . 'IndexController@index']);
 
-        Route::group(array('namespace' => $nameSpace, 'prefix' => 'exemplo'), function () {
-            $controller = 'IndexController';
-            Route::get('/',                                                          ['uses' => $controller . '@example']);
+
+
+        $nameSpace = 'MyCopy';
+        $nameSpaceWithSlash = $nameSpace . '\\';
+
+        Route::group(array('namespace' => $nameSpace, 'prefix' => 'palette'), function () {
+            $controller = 'PaletteController';
+            Route::get('/',                                                          ['uses' => $controller . '@index']);
+            Route::get('material_design',                                            ['uses' => $controller . '@materialDesign']);
+
         });
 
     });
